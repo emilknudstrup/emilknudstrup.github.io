@@ -636,6 +636,41 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Icon AI*/
+
+	.iconai {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.iconai:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: Academicons;
+			font-weight: 400;
+	}
+
+		.iconai > .label {
+			display: none;
+		}
+
+		.iconai:before {
+			line-height: inherit;
+		}
+
+		.iconai.solid:before {
+			font-weight: 900;
+		}
+
+
+
 /* Image */
 
 	.image {
@@ -929,135 +964,7 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-/* Icon AI*/
 
-	.iconai {
-		text-decoration: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.iconai:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: Academicons;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		.iconai > .label {
-			display: none;
-		}
-
-		.iconai.major {
-			border: solid 1px;
-			display: inline-block;
-			border-radius: 100%;
-			padding: 0.65em;
-			margin: 0 0 2em 0;
-			cursor: default;
-		}
-
-			.iconai.major:before {
-				display: inline-block;
-				font-size: 6.25rem;
-				width: 2.25em;
-				height: 2.25em;
-				line-height: 2.2em;
-				border-radius: 100%;
-				border: solid 1px;
-				text-align: center;
-			}
-
-		.iconai.alt {
-			display: inline-block;
-			border: solid 1px;
-			border-radius: 100%;
-		}
-
-			.iconai.alt:before {
-				display: block;
-				font-size: 1.25em;
-				width: 2em;
-				height: 2em;
-				text-align: center;
-				line-height: 2em;
-			}
-
-		.iconai.style1 {
-			color: #efa8b0;
-		}
-
-		.iconai.style2 {
-			color: #c79cc8;
-		}
-
-		.iconai.style3 {
-			color: #a89cc8;
-		}
-
-		.iconai.style4 {
-			color: #9bb2e1;
-		}
-
-		.iconai.style5 {
-			color: #8cc9f0;
-		}
-
-		@media screen and (max-width: 1680px) {
-
-			.iconai.major:before {
-				font-size: 5.5rem;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.iconai.major:before {
-				font-size: 4.75rem;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.iconai.major {
-				margin: 0 0 1.5em 0;
-				padding: 0.35em;
-			}
-
-				.iconai.major:before {
-					font-size: 3.5rem;
-				}
-
-		}
-
-	.iconai.major {
-		border-color: rgba(255, 255, 255, 0.35);
-	}
-
-		.iconai.major:before {
-			border-color: rgba(255, 255, 255, 0.35);
-		}
-
-	.iconai.alt {
-		border-color: rgba(255, 255, 255, 1);
-		color: #ffffff;
-	}
-
-		.iconai.alt:hover {
-			background-color: rgba(255, 255, 255, 0.075);
-		}
-
-		.iconai.alt:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
 
 
 /* Table */
