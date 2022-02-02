@@ -1,3 +1,3 @@
 <h1> My webpage </h1>
-Click [here](https://emilknudstrup.github.io/).
+Click <a href="https://emilknudstrup.github.io/">here<a>.
 <emil@phys.au.dk>
