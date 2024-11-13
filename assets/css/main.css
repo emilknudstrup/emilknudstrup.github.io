@@ -145,3 +145,16 @@ a:hover {
 	.iconai.solid:before {
 		font-weight: 900;
 	}
+
+
+/* General padding for all devices */
+.research-section {
+    padding: 20px; /* Adjust this value as needed */
+}
+
+/* Additional padding for smaller screens */
+@media (max-width: 600px) {
+    .research-section {
+        padding: 20px; /* Adjust this value as needed */
+    }
+}
