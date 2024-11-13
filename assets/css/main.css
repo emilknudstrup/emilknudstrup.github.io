@@ -149,12 +149,36 @@ a:hover {
 
 /* General padding for all devices */
 .research-section {
-    padding: 20px; /* Adjust this value as needed */
+    padding: 10px; /* Adjust this value as needed */
 }
 
 /* Additional padding for smaller screens */
 @media (max-width: 600px) {
     .research-section {
-        padding: 20px; /* Adjust this value as needed */
+        padding: 10px; /* Adjust this value as needed */
+    }
+}
+
+/* General padding for all devices */
+.about-section {
+    padding: 10px; /* Adjust this value as needed */
+}
+
+/* Additional padding for smaller screens */
+@media (max-width: 600px) {
+    .about-section {
+        padding: 10px; /* Adjust this value as needed */
+    }
+}
+
+/* General padding for all devices */
+.home-section {
+    padding: 10px; /* Adjust this value as needed */
+}
+
+/* Additional padding for smaller screens */
+@media (max-width: 600px) {
+    .home-section {
+        padding: 10px; /* Adjust this value as needed */
     }
 }
