@@ -9,6 +9,7 @@
 	<title>Emil Knudstrup</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+
 </head>
 <body>
     <header>
@@ -33,17 +34,27 @@
 			<span class="image main"><img src="figures/desert.pdf" alt="" /></span>
 
 
+
 			<p class="justify-text">I find it especially interesting to learn about the so-called obliquities of these systems. 
 				The obliquity is the angle between the stellar rotation axis and the orbital axis of the planet. 
 				This quantity can tell us something about the planets' formation and migration history. 
 				We can measure the obliquity through the so-called Rossiter-McLaughlin (RM) effect by, for instance, 
-				looking at the planetary shadow 
-				as shown in the image below for the <a href="https://ui.adsabs.harvard.edu/abs/2024A%26A...690A.379K/abstract">WASP-172</a> system. 
-				The image has been created with a program called <a href="https://tracit.readthedocs.io/en/latest/#"><s>tracit</s></a> I have developed. 
-				For more details on that program and the RM effect check out our paper on the <a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...660A..99K/abstract">HD 332231</a></p>
+				looking at the distortion of the stellar spectral lines during a planetary transit.
+				This distortion traces the path of the transiting planet as it crosses  
+				the rotating stellar disk, as shown in the left plot in the video below. 
+				The overall effect is a change in the radial velocity (RV) of the star,
+				which is shown to the right. 
+				By gauging the morphology of this curve, we can deduce the projected obliquity of the system.
+				<!-- planetary shadow  -->
+				<!-- as shown in the image below for the <a href="https://ui.adsabs.harvard.edu/abs/2024A%26A...690A.379K/abstract">WASP-172</a> system.  -->
+				<!-- The image has been created with a program called <a href="https://tracit.readthedocs.io/en/latest/#"><s>tracit</s></a> I have developed.  -->
+				For more details on the RM effect check out our paper on the <a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...660A..99K/abstract">HD 332231</a> system.</p>
 
-				<span class="image main"><img src="figures/shadow_wasp172.png" alt="" /></span>
-
+				<!-- <span class="image main"><img src="figures/shadow_wasp172.png" alt="" /></span> -->
+				<video class="responsive-video" autoplay loop muted>
+					<source src="../talks/thesis/scripts/rm/anim_rm_web.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
 
 				<p class="justify-text">I also have a strong interest in asteroseismology, the study of stellar oscillations. 
 				These oscillations can be used to determine the stellar properties with high precision. 
